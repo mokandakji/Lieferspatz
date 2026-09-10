@@ -23,7 +23,6 @@ through a `Pending → Processing → Delivered` workflow.
 ```
 ├── render.yaml             # Render blueprint (rootDir: Code)
 ├── Lieferspatz-ER.jpg      # entity-relationship diagram
-├── ConceptPaper.pdf        # original project brief
 └── Code/
     ├── run.py              # WSGI entry point (gunicorn run:app)
     ├── config.py           # env-driven configuration
