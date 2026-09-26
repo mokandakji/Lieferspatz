@@ -15,7 +15,7 @@ through a `Pending → Processing → Delivered` workflow.
 | Database | PostgreSQL, accessed with `psycopg` 3 |
 | Templating | Jinja2 |
 | Auth | session-based, `pbkdf2:sha256` password hashing |
-| Image storage | Cloudinary (optional; falls back to bundled images) |
+| Image storage | Cloudinary |
 | Hosting | Render (`gunicorn`), database on Neon |
 
 ## Project layout
